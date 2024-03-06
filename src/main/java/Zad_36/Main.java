@@ -15,4 +15,8 @@ Runnable i przekaż ThreadPlaygroundRunnable tworząc go za pomocą konstruktora
 Na każdym z wątków (Thread) użyj metody start().
 
  */
+
+    public static void main(String[] args) {
+
+    }
 }

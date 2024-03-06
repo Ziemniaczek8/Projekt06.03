@@ -13,7 +13,7 @@ Na zmiennej typu Thread wykonać metodę start(). */
     public static void main(String[] args) {
 
         MyRunnable myRunnable = new MyRunnable();
-        Thread thread = new Thread(myRunnable);
-        thread.start();
+        Thread thread = new Thread(myRunnable); // thread udostępnia konstruktor z 1 parametrem
+        thread.start();                         // mozemy w niego wstawic klasę implementującą interface Runnable albo sam interface Runnable
     }
 }

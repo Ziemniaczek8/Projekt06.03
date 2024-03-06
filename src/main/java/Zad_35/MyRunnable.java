@@ -1,10 +1,12 @@
 package Zad_35;
 
-public class MyRunnable extends Thread{
+public class MyRunnable implements Runnable{
 
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName());;
+        System.out.println(Thread.currentThread().getName());
     }
+
+
 }

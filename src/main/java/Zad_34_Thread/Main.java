@@ -13,6 +13,6 @@ Na zmiennej wykonać metodę start(). */
     public static void main(String[] args) {
 
         MyThread myThread = new MyThread();
-        myThread.start();
+        myThread.start();   // wypisuje nam nazwę nowego działającego threda
     }
 }
