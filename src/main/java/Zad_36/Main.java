@@ -16,7 +16,17 @@ Na każdym z wątków (Thread) użyj metody start().
 
  */
 
+    private static Thread threadOne;
+    private static Thread threadTwo;
+
     public static void main(String[] args) {
+
+        threadOne = new Thread(new ThreadPlaygroundRunnable("one"));
+        threadOne.start();
+
+        threadTwo = new Thread(new ThreadPlaygroundRunnable("two"));
+        threadTwo.start();
+
 
     }
 }
